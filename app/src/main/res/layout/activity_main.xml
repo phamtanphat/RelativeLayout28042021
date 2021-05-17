@@ -7,19 +7,12 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:layout_marginLeft="50dp"
+        android:paddingLeft="10dp"
         android:background="#f20"
-        android:layout_alignParentLeft="true"
-        android:layout_toLeftOf="@id/textView2"
         android:id="@+id/textView1"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="View 1"
-        android:textSize="20sp" />
-    <TextView
-        android:layout_centerHorizontal="true"
-        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="View 2"
+        android:text="View 1"
         android:textSize="20sp" />
 </RelativeLayout>
